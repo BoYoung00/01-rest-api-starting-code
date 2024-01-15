@@ -6,6 +6,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class HelloWorldController {
+
+	@GetMapping(path = "/basicauth") // 헤더에서 인증 토큰 전송
+	public String basicAuthCheck() {
+		return "Success";
+	}
 	
 	@GetMapping(path = "/hello-world")
 	public String helloWorld() {
