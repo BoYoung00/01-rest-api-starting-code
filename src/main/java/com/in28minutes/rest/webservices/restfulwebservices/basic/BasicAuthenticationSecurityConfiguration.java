@@ -11,7 +11,7 @@ import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.CorsConfigurationSource;
 import org.springframework.web.cors.reactive.UrlBasedCorsConfigurationSource;
 
-@Configuration // 하나 이상의 빈 메서드를 포함하고 있을 때
+//@Configuration // 하나 이상의 빈 메서드를 포함하고 있을 때
 public class BasicAuthenticationSecurityConfiguration {
 
     @Bean // 필터 체인, 요청이 들어오면 이 필터 체인 사용
